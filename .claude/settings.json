@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm run lint)",
+      "Bash(pnpm run lint:*)",
+      "Bash(pnpm run format)",
+      "Bash(pnpm run format:*)",
+      "Bash(pnpm run test)",
+      "Bash(pnpm run test:*)",
+      "Bash(pnpm run typecheck)",
+      "Bash(pnpm run build)",
+      "Bash(pnpm run dev)",
+      "Bash(pnpm install)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm exec:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git checkout:*)",
+      "Bash(git switch:*)",
+      "Bash(npx supabase:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Bash(rm -rf:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)"
+    ]
+  },
+  "env": {
+    "NODE_ENV": "development",
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  }
+}
