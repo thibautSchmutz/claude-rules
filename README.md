@@ -6,7 +6,7 @@ Set de règles et de guidelines pour Claude Code, à copier dans chaque projet.
 
 ```bash
 # Cloner le repo
-git clone https://github.com/TON_USERNAME/claude-rules.git /tmp/claude-rules
+git clone https://github.com/thibautSchmutz/claude-rules.git /tmp/claude-rules
 
 # Copier les fichiers dans ton projet
 cp -r /tmp/claude-rules/.claude ./.claude
@@ -65,6 +65,6 @@ npx degit TON_USERNAME/claude-rules /tmp/claude-rules && cp -r /tmp/claude-rules
 Ces fichiers sont copiés, pas liés. Pour intégrer des évolutions :
 
 ```bash
-git clone https://github.com/TON_USERNAME/claude-rules.git /tmp/claude-rules
+git clone https://github.com/thibautSchmutz/claude-rules.git /tmp/claude-rules
 diff -r ./.claude /tmp/claude-rules/.claude
 ```
