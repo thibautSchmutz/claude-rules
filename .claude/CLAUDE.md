@@ -4,7 +4,7 @@
 
 ## Stack technique
 
-- **Framework web** : [Vite + React | TanStack Start]
+- **Framework web** : [Vite + React | TanStack Start | Next.js]
 - **Framework backend** : [Hono (Cloudflare Workers)]
 - **Mobile** : [React Native + Expo (si applicable)]
 - **Langage** : TypeScript (strict mode)
